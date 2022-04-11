@@ -1,0 +1,68 @@
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 278:Plugin executed on: 'linux'
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 279:Plugin executed with python version: '3.10.2 (main, Jan 15 2022, 19:56:27) [GCC 11.1.0]'
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 280:KiCad build version: (6.0.2)
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 281:Plugin version: 1.1.0
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 282:Frame repr: <wx._core.Frame object at 0x7fc930428550>
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:Preparing replicator with L25 as a reference
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:source anchor footprint is 'L25'
+Located on: ['RF', 'Input Stage 2', 'Image Reject Filter1']
+With filenames: ['rf_combined.kicad_sch', 'input.kicad_sch', 'image_filter.kicad_sch']
+With sheet_id:['RF', 'Input Stage 2', 'Image Reject Filter1']
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 336:Corresponding footprints are 
+[('L4', ['RF', 'Input Stage 1', 'Image Reject Filter1']), ('L25', ['RF', 'Input Stage 2', 'Image Reject Filter1'])]
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 348:Showing dialog
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Toolbar position: wx.Point(2510, 101)
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Dialog position: wx.Point(2146, 101)
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'RF', file:'rf_combined.kicad_sch'
+03-12 14:05:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[]
+03-12 14:05:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Input Stage 2', file:'input.kicad_sch'
+03-12 14:05:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['RF', 'Input Stage 1']]
+03-12 14:05:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Input Stage 2', file:'input.kicad_sch'
+03-12 14:05:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['RF', 'Input Stage 1']]
+03-12 14:05:29 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 128:Replicating layout
+03-12 14:05:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['RF', 'Input Stage 1']]
+on level: ['RF', 'Input Stage 2']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
+03-12 14:05:29 root 218:updating GUI message: 'Preparing for replication'
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
+03-12 14:05:30 root 223:updating GUI with: 12
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source zones
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 260:Getting source text items
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 269:Getting source drawing items
+03-12 14:05:30 root 218:updating GUI message: 'Replicating footprints'
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 663:Replicating footprints
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['RF', 'Input Stage 1']
+03-12 14:05:30 root 223:updating GUI with: 4
+03-12 14:05:30 root 223:updating GUI with: 8
+03-12 14:05:30 root 223:updating GUI with: 12
+03-12 14:05:30 root 223:updating GUI with: 16
+03-12 14:05:30 root 223:updating GUI with: 24
+03-12 14:05:30 root 223:updating GUI with: 28
+03-12 14:05:30 root 223:updating GUI with: 32
+03-12 14:05:30 root 223:updating GUI with: 36
+03-12 14:05:30 root 223:updating GUI with: 96
+03-12 14:05:30 root 218:updating GUI message: 'Replicating tracks'
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 829:Replicating tracks
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['RF', 'Input Stage 1']
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 root 218:updating GUI message: 'Replicating zones'
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 887:Replicating zones
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['RF', 'Input Stage 1']
+03-12 14:05:30 root 218:updating GUI message: 'Replicating text'
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 957:Replicating text
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['RF', 'Input Stage 1']
+03-12 14:05:30 root 218:updating GUI message: 'Replicating drawings'
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 997:Replicating drawings
+03-12 14:05:30 root 223:updating GUI with: 0
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['RF', 'Input Stage 1']
+03-12 14:05:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 152:Replication complete
